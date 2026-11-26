@@ -94,4 +94,4 @@ adventureworks-sql-analysis/
 **Facundo Juarez**, estudiante de Data Analytics.
 
 - LinkedIn: https://www.linkedin.com/in/facundo-juarez-b8571222a/
-- Email:  facundojua@outlook.com
+- Email:  fjuarez.data@gmail.com
