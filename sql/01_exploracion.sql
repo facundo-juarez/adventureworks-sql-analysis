@@ -1,0 +1,10 @@
+SELECT s.name AS  esquema,
+	   t.name AS  tabla,
+	   SUM(p.rows) AS filas
+FROM sys.tables t
+JOIN sys.schemas s	ON t.schema_id = s.schema_id
+JOIN sys.partitions p ON t.object_id = p.object_id
+					AND p.index_id IN (0, 1)
+
+GROUP BY s.name, t.name
+ORDER BY s.name, t.name;
